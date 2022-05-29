@@ -10,12 +10,12 @@ int main() {
 	int j;
 	for (j = 0; j < n; j++)
 	{
-		printf("Ââåäèòå %d: ", j);
-		while (!scanf_s("%d", mas[j]))
+		printf("Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ %d: ", j);
+		while (!scanf_s("%d", &mas[j]))
 		{
-			printf("Îøèáêà! Âû ââåëè íå ÷èñëî.\n");
+			printf("ÐžÑˆÐ¸Ð±ÐºÐ°! Ð’Ñ‹ Ð²Ð²ÐµÐ»Ð¸ Ð½Ðµ Ñ‡Ð¸ÑÐ»Ð¾.\n");
 			rewind(stdin);
-			printf("Ââåäèòå a[%d]: ", j);
+			printf("Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ a[%d]: ", j);
 		}
 	}
 }
