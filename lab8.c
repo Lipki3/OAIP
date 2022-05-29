@@ -2,19 +2,19 @@
 #include <malloc.h>
 #include <stdlib.h>
 #include <locale.h>
-#include <string.h>
+#include <string.h>https://github.com/Lipki3/OAIP/blob/main/Source.c
 
 int main()
 {
 	setlocale(LC_ALL, "Rus");
 	int i, dl = 0; int n = 100;
 	char str[100];
-	printf("\nВведите строкy: ");
+	printf("\nР’РІРµРґРёС‚Рµ СЃС‚СЂРѕРєy: ");
 	for (i = 0; i < 100; i++) str[i] = 32;
 	gets(str);
 	int len = strlen(str);
 
-	printf("\nЗаписанная строка: ");
+	printf("\nР—Р°РїРёСЃР°РЅРЅР°СЏ СЃС‚СЂРѕРєР°: ");
 	for (i = 0; i < n; i++)
 		printf("%c", str[i]);
 	int min = 100;
@@ -30,7 +30,8 @@ int main()
 		}
 	}
 
-	printf("\nДлина самого короткого слова = %d", min);
+	printf("\nР”Р»РёРЅР° СЃР°РјРѕРіРѕ РєРѕСЂРѕС‚РєРѕРіРѕ СЃР»РѕРІР° = %d", min);
 
 	return 0;
+}
 }
