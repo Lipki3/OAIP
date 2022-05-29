@@ -2,7 +2,7 @@
 #include <malloc.h>
 #include <stdlib.h>
 #include <locale.h>
-#include <string.h>https://github.com/Lipki3/OAIP/blob/main/Source.c
+#include <string.h>
 
 int main()
 {
