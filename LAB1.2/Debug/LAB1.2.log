@@ -1,0 +1,7 @@
+﻿  Source.c
+D:\bsuir\1й курс по учебе\ОАиП\лабы\LAB1.2\LAB1.2\Source.c(7,31): warning C4047: =: "int" отличается по уровням косвенного обращения от "char *"
+D:\bsuir\1й курс по учебе\ОАиП\лабы\LAB1.2\LAB1.2\Source.c(21,21): warning C4013: gets: нет определения; предполагается "extern" с возвратом типа "int"
+D:\bsuir\1й курс по учебе\ОАиП\лабы\LAB1.2\LAB1.2\Source.c(298,28): warning C4129: E: неизвестная escape-последовательность
+  Source1.c
+  Создание кода...
+  LAB1.2.vcxproj -> D:\bsuir\1й курс по учебе\ОАиП\лабы\LAB1.2\Debug\LAB1.2.exe
