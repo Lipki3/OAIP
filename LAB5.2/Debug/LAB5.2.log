@@ -1,0 +1,12 @@
+﻿  add.c
+  clear.c
+  del.c
+  file.c
+  main.c
+  menu.c
+  print.c
+  search.c
+D:\bsuir\1й курс по учебе\ОАиП\лабы\LAB5.2\LAB5.2\search.c(26,19): warning C4018: <: несоответствие типов со знаком и без знака
+D:\bsuir\1й курс по учебе\ОАиП\лабы\LAB5.2\LAB5.2\search.c(67,19): warning C4018: <: несоответствие типов со знаком и без знака
+  Создание кода...
+  LAB5.2.vcxproj -> D:\bsuir\1й курс по учебе\ОАиП\лабы\LAB5.2\Debug\LAB5.2.exe
