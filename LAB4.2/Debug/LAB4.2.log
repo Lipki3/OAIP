@@ -1,0 +1,15 @@
+﻿  add.c
+  clear.c
+  del.c
+  file.c
+D:\bsuir\1й курс по учебе\ОАиП\лабы\LAB4.2\LAB4.2\file.c(132,25): warning C4133: =: несовместимые типы - из "Series *" в "bank *"
+D:\bsuir\1й курс по учебе\ОАиП\лабы\LAB4.2\LAB4.2\file.c(133,17): warning C4133: =: несовместимые типы - из "bank *" в "Series *"
+D:\bsuir\1й курс по учебе\ОАиП\лабы\LAB4.2\LAB4.2\file.c(113,1): warning C4133: инициализация: несовместимые типы - из "bank *" в "Series *"
+  main.c
+  menu.c
+  print.c
+  search.c
+D:\bsuir\1й курс по учебе\ОАиП\лабы\LAB4.2\LAB4.2\search.c(28,19): warning C4018: <: несоответствие типов со знаком и без знака
+D:\bsuir\1й курс по учебе\ОАиП\лабы\LAB4.2\LAB4.2\search.c(70,19): warning C4018: <: несоответствие типов со знаком и без знака
+  Создание кода...
+  LAB4.2.vcxproj -> D:\bsuir\1й курс по учебе\ОАиП\лабы\LAB4.2\Debug\LAB4.2.exe
