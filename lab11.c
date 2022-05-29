@@ -9,7 +9,7 @@ int main()
 	int kr = 0, kv = 0, fg = 0; 
 	int i = 0;
 	str = (char*)malloc((n + 1) * sizeof(char));
-	printf("\nВведите выражение: ");
+	printf("\nР’РІРµРґРёС‚Рµ РІС‹СЂР°Р¶РµРЅРёРµ: ");
 	fgets(str, (n + 1), stdin);
 	rec(str, kr, kv, fg, i);
 }
@@ -18,7 +18,7 @@ int rec(char* str, int kr, int kv, int fg, int i)
 {
 
 	if (kr < 0 || kv < 0 || fg < 0) 
-		return (printf("Cкобки расставлены НЕВЕРНО\n"));
+		return (printf("CРєРѕР±РєРё СЂР°СЃСЃС‚Р°РІР»РµРЅС‹ РќР•Р’Р•Р РќРћ\n"));
 
 	for (i; str[i]; )
 		switch (str[i])
@@ -32,8 +32,8 @@ int rec(char* str, int kr, int kv, int fg, int i)
 		default: return rec(str + 1, kr, kv, fg, i++);
 		}
 	if (kr == 0 && kv == 0 && fg == 0)
-		return(printf("Скобки расставлены ВЕРНО\n"));
+		return(printf("РЎРєРѕР±РєРё СЂР°СЃСЃС‚Р°РІР»РµРЅС‹ Р’Р•Р РќРћ\n"));
 	else
-		return (printf("Cкобки расставлены НЕВЕРНО\n"));
+		return (printf("CРєРѕР±РєРё СЂР°СЃСЃС‚Р°РІР»РµРЅС‹ РќР•Р’Р•Р РќРћ\n"));
 }
 
